@@ -62,10 +62,10 @@ RM = "D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\omi_remote
+CMAKE_SOURCE_DIR = D:\Projects\OmniBot\omi_remote
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\omi_remote\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects\OmniBot\omi_remote\cmake-build-debug
 
 # Utility rule file for omi_remote-upload.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = D:\Projects\omi_remote\cmake-build-debug
 include CMakeFiles/omi_remote-upload.dir/progress.make
 
 CMakeFiles/omi_remote-upload: omi_remote.elf
-	D:\Programs\arduino\hardware\tools\avr\bin\avrdude.exe -CD:/Programs/arduino/hardware/tools/avr/etc/avrdude.conf -patmega328p -carduino -b57600 -PCOM3 -D -V -Uflash:w:D:/Projects/omi_remote/cmake-build-debug/omi_remote.hex:i -Ueeprom:w:D:/Projects/omi_remote/cmake-build-debug/omi_remote.eep:i
+	D:\Programs\arduino\hardware\tools\avr\bin\avrdude.exe -CD:/Programs/arduino/hardware/tools/avr/etc/avrdude.conf -patmega328p -carduino -b57600 -PCOM3 -D -V -Uflash:w:D:/Projects/OmniBot/omi_remote/cmake-build-debug/omi_remote.hex:i -Ueeprom:w:D:/Projects/OmniBot/omi_remote/cmake-build-debug/omi_remote.eep:i
 
 omi_remote-upload: CMakeFiles/omi_remote-upload
 omi_remote-upload: CMakeFiles/omi_remote-upload.dir/build.make
@@ -90,6 +90,6 @@ CMakeFiles/omi_remote-upload.dir/clean:
 .PHONY : CMakeFiles/omi_remote-upload.dir/clean
 
 CMakeFiles/omi_remote-upload.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\omi_remote D:\Projects\omi_remote D:\Projects\omi_remote\cmake-build-debug D:\Projects\omi_remote\cmake-build-debug D:\Projects\omi_remote\cmake-build-debug\CMakeFiles\omi_remote-upload.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\OmniBot\omi_remote D:\Projects\OmniBot\omi_remote D:\Projects\OmniBot\omi_remote\cmake-build-debug D:\Projects\OmniBot\omi_remote\cmake-build-debug D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles\omi_remote-upload.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/omi_remote-upload.dir/depend
 

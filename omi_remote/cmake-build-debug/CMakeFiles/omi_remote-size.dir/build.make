@@ -62,10 +62,10 @@ RM = "D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\omi_remote
+CMAKE_SOURCE_DIR = D:\Projects\OmniBot\omi_remote
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\omi_remote\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects\OmniBot\omi_remote\cmake-build-debug
 
 # Utility rule file for omi_remote-size.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = D:\Projects\omi_remote\cmake-build-debug
 include CMakeFiles/omi_remote-size.dir/progress.make
 
 CMakeFiles/omi_remote-size: omi_remote.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Calculating omi_remote image size"
-	"D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DFIRMWARE_IMAGE=D:/Projects/omi_remote/cmake-build-debug/omi_remote.elf -DMCU=atmega328p -DEEPROM_IMAGE=D:/Projects/omi_remote/cmake-build-debug/omi_remote.eep -P D:/Projects/omi_remote/cmake-build-debug/CMakeFiles/FirmwareSize.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Calculating omi_remote image size"
+	"D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DFIRMWARE_IMAGE=D:/Projects/OmniBot/omi_remote/cmake-build-debug/omi_remote.elf -DMCU=atmega328p -DEEPROM_IMAGE=D:/Projects/OmniBot/omi_remote/cmake-build-debug/omi_remote.eep -P D:/Projects/OmniBot/omi_remote/cmake-build-debug/CMakeFiles/FirmwareSize.cmake
 
 omi_remote-size: CMakeFiles/omi_remote-size
 omi_remote-size: CMakeFiles/omi_remote-size.dir/build.make
@@ -91,6 +91,6 @@ CMakeFiles/omi_remote-size.dir/clean:
 .PHONY : CMakeFiles/omi_remote-size.dir/clean
 
 CMakeFiles/omi_remote-size.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\omi_remote D:\Projects\omi_remote D:\Projects\omi_remote\cmake-build-debug D:\Projects\omi_remote\cmake-build-debug D:\Projects\omi_remote\cmake-build-debug\CMakeFiles\omi_remote-size.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\OmniBot\omi_remote D:\Projects\OmniBot\omi_remote D:\Projects\OmniBot\omi_remote\cmake-build-debug D:\Projects\OmniBot\omi_remote\cmake-build-debug D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles\omi_remote-size.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/omi_remote-size.dir/depend
 

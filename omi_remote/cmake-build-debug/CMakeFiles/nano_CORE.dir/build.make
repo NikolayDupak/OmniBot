@@ -62,10 +62,10 @@ RM = "D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\omi_remote
+CMAKE_SOURCE_DIR = D:\Projects\OmniBot\omi_remote
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\omi_remote\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects\OmniBot\omi_remote\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nano_CORE.dir/depend.make
@@ -78,7 +78,7 @@ include CMakeFiles/nano_CORE.dir/flags.make
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\CDC.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\CDC.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp.i: cmake_force
@@ -91,7 +91,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.i: cmake_force
@@ -104,7 +104,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial0.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial0.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.i: cmake_force
@@ -117,7 +117,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial1.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial1.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.i: cmake_force
@@ -130,7 +130,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial2.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial2.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.i: cmake_force
@@ -143,7 +143,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial3.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial3.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.i: cmake_force
@@ -156,7 +156,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\IPAddress.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\IPAddress.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp.i: cmake_force
@@ -169,7 +169,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\PluggableUSB.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\PluggableUSB.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.i: cmake_force
@@ -182,7 +182,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Print.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Print.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/Print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Print.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Print.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\Print.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\Print.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Print.cpp.i: cmake_force
@@ -195,7 +195,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Stream.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Stream.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/Stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Stream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Stream.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\Stream.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\Stream.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Stream.cpp.i: cmake_force
@@ -208,7 +208,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Tone.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Tone.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/Tone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Tone.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Tone.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\Tone.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\Tone.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/Tone.cpp.i: cmake_force
@@ -221,7 +221,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\USBCore.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\USBCore.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp.i: cmake_force
@@ -234,7 +234,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\WInterrupts.c.obj   -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\WInterrupts.c
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c.i: cmake_force
@@ -247,7 +247,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WMath.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WMath.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/WMath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WMath.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WMath.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\WMath.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\WMath.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WMath.cpp.i: cmake_force
@@ -260,7 +260,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WString.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WString.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/WString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WString.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WString.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\WString.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\WString.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/WString.cpp.i: cmake_force
@@ -273,7 +273,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/abi.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/abi.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/abi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/abi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/abi.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\abi.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\abi.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/abi.cpp.i: cmake_force
@@ -286,7 +286,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/hooks.c.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/hooks.c.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/hooks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/hooks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/hooks.c.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\hooks.c.obj   -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\hooks.c
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/hooks.c.i: cmake_force
@@ -299,7 +299,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/main.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/main.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/main.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\main.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\main.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/main.cpp.i: cmake_force
@@ -312,7 +312,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/new.cpp.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/new.cpp.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/new.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/new.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/new.cpp.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\new.cpp.obj -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\new.cpp
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/new.cpp.i: cmake_force
@@ -325,7 +325,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring.c.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring.c.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring.c.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\wiring.c.obj   -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\wiring.c
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring.c.i: cmake_force
@@ -338,7 +338,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\wiring_analog.c.obj   -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\wiring_analog.c
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c.i: cmake_force
@@ -351,7 +351,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\wiring_digital.c.obj   -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\wiring_digital.c
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c.i: cmake_force
@@ -364,7 +364,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.c.obj   -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.c
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c.i: cmake_force
@@ -377,7 +377,7 @@ CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj: CMakeFiles/nano_CORE.dir/flags.make
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj: D:/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj"
 	D:\Programs\arduino\hardware\tools\avr\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\nano_CORE.dir\D_\Programs\arduino\hardware\arduino\avr\cores\arduino\wiring_shift.c.obj   -c D:\Programs\arduino\hardware\arduino\avr\cores\arduino\wiring_shift.c
 
 CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.i: cmake_force
@@ -444,7 +444,7 @@ libnano_CORE.a: CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/av
 libnano_CORE.a: CMakeFiles/nano_CORE.dir/D_/Programs/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj
 libnano_CORE.a: CMakeFiles/nano_CORE.dir/build.make
 libnano_CORE.a: CMakeFiles/nano_CORE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library libnano_CORE.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library libnano_CORE.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\nano_CORE.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\nano_CORE.dir\link.txt --verbose=$(VERBOSE)
 
@@ -458,6 +458,6 @@ CMakeFiles/nano_CORE.dir/clean:
 .PHONY : CMakeFiles/nano_CORE.dir/clean
 
 CMakeFiles/nano_CORE.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\omi_remote D:\Projects\omi_remote D:\Projects\omi_remote\cmake-build-debug D:\Projects\omi_remote\cmake-build-debug D:\Projects\omi_remote\cmake-build-debug\CMakeFiles\nano_CORE.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\OmniBot\omi_remote D:\Projects\OmniBot\omi_remote D:\Projects\OmniBot\omi_remote\cmake-build-debug D:\Projects\OmniBot\omi_remote\cmake-build-debug D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles\nano_CORE.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nano_CORE.dir/depend
 

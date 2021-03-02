@@ -62,10 +62,10 @@ RM = "D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\omi_remote
+CMAKE_SOURCE_DIR = D:\Projects\OmniBot\omi_remote
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\omi_remote\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects\OmniBot\omi_remote\cmake-build-debug
 
 # Utility rule file for upload.
 
@@ -86,6 +86,6 @@ CMakeFiles/upload.dir/clean:
 .PHONY : CMakeFiles/upload.dir/clean
 
 CMakeFiles/upload.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\omi_remote D:\Projects\omi_remote D:\Projects\omi_remote\cmake-build-debug D:\Projects\omi_remote\cmake-build-debug D:\Projects\omi_remote\cmake-build-debug\CMakeFiles\upload.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\OmniBot\omi_remote D:\Projects\OmniBot\omi_remote D:\Projects\OmniBot\omi_remote\cmake-build-debug D:\Projects\OmniBot\omi_remote\cmake-build-debug D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles\upload.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/upload.dir/depend
 

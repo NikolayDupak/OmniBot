@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Windows")
 set(CMAKE_HOST_SYSTEM_VERSION "10.0.19041")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("D:/Projects/omi_remote/cmake/ArduinoToolchain.cmake")
+include("D:/Projects/OmniBot/omi_remote/cmake/ArduinoToolchain.cmake")
 
 set(CMAKE_SYSTEM "Arduino")
 set(CMAKE_SYSTEM_NAME "Arduino")

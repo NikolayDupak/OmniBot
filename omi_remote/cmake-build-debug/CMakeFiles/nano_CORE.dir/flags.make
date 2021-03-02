@@ -3,13 +3,13 @@
 
 # compile C with D:/Programs/arduino/hardware/tools/avr/bin/avr-gcc.exe
 # compile CXX with D:/Programs/arduino/hardware/tools/avr/bin/avr-g++.exe
-C_FLAGS = -g -Os -w -ffunction-sections -fdata-sections -MMD    -DF_CPU=16000000L -DARDUINO=10813 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -mmcu=atmega328p -I"D:/Programs/arduino/hardware/arduino/avr/cores/arduino" -I"D:/Programs/arduino/libraries" -I"D:/Programs/arduino/hardware/arduino/avr/variants/eightanaloginputs"
+C_FLAGS = -g -Os -w -ffunction-sections -fdata-sections -MMD -g -Os -w -ffunction-sections -fdata-sections -MMD    -DF_CPU=16000000L -DARDUINO=10813 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -mmcu=atmega328p -I"D:/Programs/arduino/hardware/arduino/avr/cores/arduino" -I"D:/Programs/arduino/libraries" -I"D:/Programs/arduino/hardware/arduino/avr/variants/eightanaloginputs"
 
 C_DEFINES = 
 
 C_INCLUDES = 
 
-CXX_FLAGS = -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -DF_CPU=16000000L -DARDUINO=10813 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -mmcu=atmega328p -I"D:/Programs/arduino/hardware/arduino/avr/cores/arduino" -I"D:/Programs/arduino/libraries" -I"D:/Programs/arduino/hardware/arduino/avr/variants/eightanaloginputs" -std=gnu++14
+CXX_FLAGS = -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -DF_CPU=16000000L -DARDUINO=10813 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -mmcu=atmega328p -I"D:/Programs/arduino/hardware/arduino/avr/cores/arduino" -I"D:/Programs/arduino/libraries" -I"D:/Programs/arduino/hardware/arduino/avr/variants/eightanaloginputs" -std=gnu++14
 
 CXX_DEFINES = 
 

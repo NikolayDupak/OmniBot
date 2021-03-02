@@ -62,10 +62,10 @@ RM = "D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\omi_remote
+CMAKE_SOURCE_DIR = D:\Projects\OmniBot\omi_remote
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\omi_remote\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects\OmniBot\omi_remote\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/omi_remote.dir/depend.make
@@ -84,60 +84,60 @@ omi_remote_omi_remote.ino.cpp: ../Motor.h
 omi_remote_omi_remote.ino.cpp: ../UartCommunication.cpp
 omi_remote_omi_remote.ino.cpp: ../UartCommunication.h
 omi_remote_omi_remote.ino.cpp: ../omi_remote.ino
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Regnerating omi_remote.ino Sketch"
-	"D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" D:/Projects/omi_remote
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Regnerating omi_remote.ino Sketch"
+	"D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" D:/Projects/OmniBot/omi_remote
 
 CMakeFiles/omi_remote.dir/OmniBot.cpp.obj: CMakeFiles/omi_remote.dir/flags.make
 CMakeFiles/omi_remote.dir/OmniBot.cpp.obj: ../OmniBot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/omi_remote.dir/OmniBot.cpp.obj"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\omi_remote.dir\OmniBot.cpp.obj -c D:\Projects\omi_remote\OmniBot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/omi_remote.dir/OmniBot.cpp.obj"
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\omi_remote.dir\OmniBot.cpp.obj -c D:\Projects\OmniBot\omi_remote\OmniBot.cpp
 
 CMakeFiles/omi_remote.dir/OmniBot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/omi_remote.dir/OmniBot.cpp.i"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\omi_remote\OmniBot.cpp > CMakeFiles\omi_remote.dir\OmniBot.cpp.i
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\OmniBot\omi_remote\OmniBot.cpp > CMakeFiles\omi_remote.dir\OmniBot.cpp.i
 
 CMakeFiles/omi_remote.dir/OmniBot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/omi_remote.dir/OmniBot.cpp.s"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\omi_remote\OmniBot.cpp -o CMakeFiles\omi_remote.dir\OmniBot.cpp.s
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\OmniBot\omi_remote\OmniBot.cpp -o CMakeFiles\omi_remote.dir\OmniBot.cpp.s
 
 CMakeFiles/omi_remote.dir/Motor.cpp.obj: CMakeFiles/omi_remote.dir/flags.make
 CMakeFiles/omi_remote.dir/Motor.cpp.obj: ../Motor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/omi_remote.dir/Motor.cpp.obj"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\omi_remote.dir\Motor.cpp.obj -c D:\Projects\omi_remote\Motor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/omi_remote.dir/Motor.cpp.obj"
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\omi_remote.dir\Motor.cpp.obj -c D:\Projects\OmniBot\omi_remote\Motor.cpp
 
 CMakeFiles/omi_remote.dir/Motor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/omi_remote.dir/Motor.cpp.i"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\omi_remote\Motor.cpp > CMakeFiles\omi_remote.dir\Motor.cpp.i
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\OmniBot\omi_remote\Motor.cpp > CMakeFiles\omi_remote.dir\Motor.cpp.i
 
 CMakeFiles/omi_remote.dir/Motor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/omi_remote.dir/Motor.cpp.s"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\omi_remote\Motor.cpp -o CMakeFiles\omi_remote.dir\Motor.cpp.s
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\OmniBot\omi_remote\Motor.cpp -o CMakeFiles\omi_remote.dir\Motor.cpp.s
 
 CMakeFiles/omi_remote.dir/UartCommunication.cpp.obj: CMakeFiles/omi_remote.dir/flags.make
 CMakeFiles/omi_remote.dir/UartCommunication.cpp.obj: ../UartCommunication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/omi_remote.dir/UartCommunication.cpp.obj"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\omi_remote.dir\UartCommunication.cpp.obj -c D:\Projects\omi_remote\UartCommunication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/omi_remote.dir/UartCommunication.cpp.obj"
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\omi_remote.dir\UartCommunication.cpp.obj -c D:\Projects\OmniBot\omi_remote\UartCommunication.cpp
 
 CMakeFiles/omi_remote.dir/UartCommunication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/omi_remote.dir/UartCommunication.cpp.i"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\omi_remote\UartCommunication.cpp > CMakeFiles\omi_remote.dir\UartCommunication.cpp.i
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\OmniBot\omi_remote\UartCommunication.cpp > CMakeFiles\omi_remote.dir\UartCommunication.cpp.i
 
 CMakeFiles/omi_remote.dir/UartCommunication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/omi_remote.dir/UartCommunication.cpp.s"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\omi_remote\UartCommunication.cpp -o CMakeFiles\omi_remote.dir\UartCommunication.cpp.s
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\OmniBot\omi_remote\UartCommunication.cpp -o CMakeFiles\omi_remote.dir\UartCommunication.cpp.s
 
 CMakeFiles/omi_remote.dir/omi_remote_omi_remote.ino.cpp.obj: CMakeFiles/omi_remote.dir/flags.make
 CMakeFiles/omi_remote.dir/omi_remote_omi_remote.ino.cpp.obj: omi_remote_omi_remote.ino.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/omi_remote.dir/omi_remote_omi_remote.ino.cpp.obj"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\omi_remote.dir\omi_remote_omi_remote.ino.cpp.obj -c D:\Projects\omi_remote\cmake-build-debug\omi_remote_omi_remote.ino.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/omi_remote.dir/omi_remote_omi_remote.ino.cpp.obj"
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\omi_remote.dir\omi_remote_omi_remote.ino.cpp.obj -c D:\Projects\OmniBot\omi_remote\cmake-build-debug\omi_remote_omi_remote.ino.cpp
 
 CMakeFiles/omi_remote.dir/omi_remote_omi_remote.ino.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/omi_remote.dir/omi_remote_omi_remote.ino.cpp.i"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\omi_remote\cmake-build-debug\omi_remote_omi_remote.ino.cpp > CMakeFiles\omi_remote.dir\omi_remote_omi_remote.ino.cpp.i
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\OmniBot\omi_remote\cmake-build-debug\omi_remote_omi_remote.ino.cpp > CMakeFiles\omi_remote.dir\omi_remote_omi_remote.ino.cpp.i
 
 CMakeFiles/omi_remote.dir/omi_remote_omi_remote.ino.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/omi_remote.dir/omi_remote_omi_remote.ino.cpp.s"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\omi_remote\cmake-build-debug\omi_remote_omi_remote.ino.cpp -o CMakeFiles\omi_remote.dir\omi_remote_omi_remote.ino.cpp.s
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\OmniBot\omi_remote\cmake-build-debug\omi_remote_omi_remote.ino.cpp -o CMakeFiles\omi_remote.dir\omi_remote_omi_remote.ino.cpp.s
 
 # Object files for target omi_remote
 omi_remote_OBJECTS = \
@@ -156,14 +156,14 @@ omi_remote.elf: CMakeFiles/omi_remote.dir/omi_remote_omi_remote.ino.cpp.obj
 omi_remote.elf: CMakeFiles/omi_remote.dir/build.make
 omi_remote.elf: libnano_CORE.a
 omi_remote.elf: CMakeFiles/omi_remote.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable omi_remote.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable omi_remote.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\omi_remote.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating EEP image"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-objcopy.exe -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0 D:/Projects/omi_remote/cmake-build-debug/omi_remote.elf D:/Projects/omi_remote/cmake-build-debug/omi_remote.eep
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-objcopy.exe -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0 D:/Projects/OmniBot/omi_remote/cmake-build-debug/omi_remote.elf D:/Projects/OmniBot/omi_remote/cmake-build-debug/omi_remote.eep
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating HEX image"
-	D:\Programs\arduino\hardware\tools\avr\bin\avr-objcopy.exe -O ihex -R .eeprom D:/Projects/omi_remote/cmake-build-debug/omi_remote.elf D:/Projects/omi_remote/cmake-build-debug/omi_remote.hex
+	D:\Programs\arduino\hardware\tools\avr\bin\avr-objcopy.exe -O ihex -R .eeprom D:/Projects/OmniBot/omi_remote/cmake-build-debug/omi_remote.elf D:/Projects/OmniBot/omi_remote/cmake-build-debug/omi_remote.hex
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Calculating image size"
-	"D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DFIRMWARE_IMAGE=D:/Projects/omi_remote/cmake-build-debug/omi_remote.elf -DMCU=atmega328p -DEEPROM_IMAGE=D:/Projects/omi_remote/cmake-build-debug/omi_remote.eep -P D:/Projects/omi_remote/cmake-build-debug/CMakeFiles/FirmwareSize.cmake
+	"D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DFIRMWARE_IMAGE=D:/Projects/OmniBot/omi_remote/cmake-build-debug/omi_remote.elf -DMCU=atmega328p -DEEPROM_IMAGE=D:/Projects/OmniBot/omi_remote/cmake-build-debug/omi_remote.eep -P D:/Projects/OmniBot/omi_remote/cmake-build-debug/CMakeFiles/FirmwareSize.cmake
 
 # Rule to build all files generated by this target.
 CMakeFiles/omi_remote.dir/build: omi_remote.elf
@@ -175,6 +175,6 @@ CMakeFiles/omi_remote.dir/clean:
 .PHONY : CMakeFiles/omi_remote.dir/clean
 
 CMakeFiles/omi_remote.dir/depend: omi_remote_omi_remote.ino.cpp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\omi_remote D:\Projects\omi_remote D:\Projects\omi_remote\cmake-build-debug D:\Projects\omi_remote\cmake-build-debug D:\Projects\omi_remote\cmake-build-debug\CMakeFiles\omi_remote.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\OmniBot\omi_remote D:\Projects\OmniBot\omi_remote D:\Projects\OmniBot\omi_remote\cmake-build-debug D:\Projects\OmniBot\omi_remote\cmake-build-debug D:\Projects\OmniBot\omi_remote\cmake-build-debug\CMakeFiles\omi_remote.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/omi_remote.dir/depend
 
