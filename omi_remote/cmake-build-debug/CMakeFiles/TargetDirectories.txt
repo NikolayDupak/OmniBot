@@ -1,7 +1,0 @@
-D:/Projects/OmniBot/omi_remote/cmake-build-debug/CMakeFiles/omi_remote-upload.dir
-D:/Projects/OmniBot/omi_remote/cmake-build-debug/CMakeFiles/nano_CORE.dir
-D:/Projects/OmniBot/omi_remote/cmake-build-debug/CMakeFiles/omi_remote-size.dir
-D:/Projects/OmniBot/omi_remote/cmake-build-debug/CMakeFiles/omi_remote.dir
-D:/Projects/OmniBot/omi_remote/cmake-build-debug/CMakeFiles/upload.dir
-D:/Projects/OmniBot/omi_remote/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Projects/OmniBot/omi_remote/cmake-build-debug/CMakeFiles/rebuild_cache.dir
