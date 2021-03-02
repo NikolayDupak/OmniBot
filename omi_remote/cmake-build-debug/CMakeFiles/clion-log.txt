@@ -1,0 +1,124 @@
+"D:\Programs\clion\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Programs/mingw/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/Programs/mingw/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/Programs/mingw/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" D:\Projects\omi_remote
+-- Generating omi_remote
+-- Using D:/Programs/arduino/hardware/tools/avr/bin/avr-objcopy.exe for converting firmware image to hex
+-- AVR Boards:
+--                   menu: 
+--                    yun: Arduino Y
+--                    uno: Arduino Uno
+--              diecimila: Arduino Duemilanove or Diecimila
+--                   nano: Arduino Nano
+--                   mega: Arduino Mega or Mega 2560
+--                megaADK: Arduino Mega ADK
+--               leonardo: Arduino Leonardo
+--            leonardoeth: Arduino Leonardo ETH
+--                  micro: Arduino Micro
+--                esplora: Arduino Esplora
+--                   mini: Arduino Mini
+--               ethernet: Arduino Ethernet
+--                    fio: Arduino Fio
+--                     bt: Arduino BT
+--             LilyPadUSB: LilyPad Arduino USB
+--                lilypad: LilyPad Arduino
+--                    pro: Arduino Pro or Pro Mini
+--               atmegang: Arduino NG or older
+--           robotControl: Arduino Robot Control
+--             robotMotor: Arduino Robot Motor
+--                  gemma: Arduino Gemma
+--     circuitplay32u4cat: Adafruit Circuit Playground
+--                yunmini: Arduino Y
+--                chiwawa: Arduino Industrial 101
+--                    one: Linino One
+--                unowifi: Arduino Uno WiFi
+-- 
+-- 
+-- AVR Programmers:
+--                     avrisp: AVR ISP
+--                 avrispmkii: AVRISP mkII
+--                 usbtinyisp: USBtinyISP
+--                 arduinoisp: ArduinoISP
+--              arduinoisporg: ArduinoISP.org
+--                     usbasp: USBasp
+--                   parallel: Parallel Programmer
+--               arduinoasisp: Arduino as ISP
+--     arduinoasispatmega32u4: Arduino as ISP (ATmega32U4)
+--                   usbGemma: Arduino Gemma
+--                  buspirate: BusPirate as ISP
+--                     stk500: Atmel STK500 development board
+--                   jtag3isp: Atmel JTAGICE3 (ISP mode)
+--                      jtag3: Atmel JTAGICE3 (JTAG mode)
+--                  atmel_ice: Atmel-ICE (AVR)
+-- 
+-- Configuring done
+You have changed variables that require your cache to be deleted.
+Configure will be re-run and you may have to reset some variables.
+The following variables have changed:
+CMAKE_C_COMPILER= D:/Programs/mingw/mingw64/bin/gcc.exe
+CMAKE_CXX_COMPILER= D:/Programs/mingw/mingw64/bin/g++.exe
+
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Arduino SDK version 1.8.13: D:/Programs/arduino
+-- Check for working C compiler: D:/Programs/arduino/hardware/tools/avr/bin/avr-gcc.exe
+-- Check for working C compiler: D:/Programs/arduino/hardware/tools/avr/bin/avr-gcc.exe - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Programs/arduino/hardware/tools/avr/bin/avr-g++.exe
+-- Check for working CXX compiler: D:/Programs/arduino/hardware/tools/avr/bin/avr-g++.exe - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Generating omi_remote
+-- Using D:/Programs/arduino/hardware/tools/avr/bin/avr-objcopy.exe for converting firmware image to hex
+-- AVR Boards:
+--                   menu: 
+--                    yun: Arduino Y
+--                    uno: Arduino Uno
+--              diecimila: Arduino Duemilanove or Diecimila
+--                   nano: Arduino Nano
+--                   mega: Arduino Mega or Mega 2560
+--                megaADK: Arduino Mega ADK
+--               leonardo: Arduino Leonardo
+--            leonardoeth: Arduino Leonardo ETH
+--                  micro: Arduino Micro
+--                esplora: Arduino Esplora
+--                   mini: Arduino Mini
+--               ethernet: Arduino Ethernet
+--                    fio: Arduino Fio
+--                     bt: Arduino BT
+--             LilyPadUSB: LilyPad Arduino USB
+--                lilypad: LilyPad Arduino
+--                    pro: Arduino Pro or Pro Mini
+--               atmegang: Arduino NG or older
+--           robotControl: Arduino Robot Control
+--             robotMotor: Arduino Robot Motor
+--                  gemma: Arduino Gemma
+--     circuitplay32u4cat: Adafruit Circuit Playground
+--                yunmini: Arduino Y
+--                chiwawa: Arduino Industrial 101
+--                    one: Linino One
+--                unowifi: Arduino Uno WiFi
+-- 
+-- 
+-- AVR Programmers:
+--                     avrisp: AVR ISP
+--                 avrispmkii: AVRISP mkII
+--                 usbtinyisp: USBtinyISP
+--                 arduinoisp: ArduinoISP
+--              arduinoisporg: ArduinoISP.org
+--                     usbasp: USBasp
+--                   parallel: Parallel Programmer
+--               arduinoasisp: Arduino as ISP
+--     arduinoasispatmega32u4: Arduino as ISP (ATmega32U4)
+--                   usbGemma: Arduino Gemma
+--                  buspirate: BusPirate as ISP
+--                     stk500: Atmel STK500 development board
+--                   jtag3isp: Atmel JTAGICE3 (ISP mode)
+--                      jtag3: Atmel JTAGICE3 (JTAG mode)
+--                  atmel_ice: Atmel-ICE (AVR)
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Projects/omi_remote/cmake-build-debug

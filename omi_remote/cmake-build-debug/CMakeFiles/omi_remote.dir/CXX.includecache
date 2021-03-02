@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects/omi_remote/cmake-build-debug/omi_remote_omi_remote.ino.cpp
+Arduino.h
+-
+OmniBot.h
+D:/Projects/omi_remote/cmake-build-debug/OmniBot.h
+Motor.h
+D:/Projects/omi_remote/cmake-build-debug/Motor.h
+UartCommunication.h
+D:/Projects/omi_remote/cmake-build-debug/UartCommunication.h
+Arduino.h
+D:/Projects/omi_remote/cmake-build-debug/Arduino.h
+
