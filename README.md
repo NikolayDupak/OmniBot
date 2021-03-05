@@ -1,4 +1,4 @@
-# Robot based on macanum wheels
+# Robot based on mecanum wheels
 ## Kinematics
 image
 ### The configuration parameters of the system are defined as follows:
@@ -14,4 +14,4 @@ image
 <img src="http://latex.codecogs.com/svg.latex?\begin{bmatrix}\omega_1\\\omega_2\\\omega_3\\\omega_4\\\end{bmatrix}=1/r\begin{bmatrix}-1&1&-l*sin(3*pi/4-\alpha_1_2)/sin(-pi/4)\\1&1&-l*sin(-3*pi/4-\alpha_1_2)/sin(pi/4)\\1&1& l*sin(pi/4-\alpha_3_4)/sin(pi/4)\\-1&1&l*sin(-pi/4-\alpha_3_4)/sin(-pi/4)\\\end{bmatrix}\begin{bmatrix}v_x\\v_y\\\omega\end{bmatrix}\">
 
 ### Forward kinematics
-<img src="http://latex.codecogs.com/svg.latex?\begin{bmatrix}v_x\\v_y\\\omega\end{bmatrix}\=r/4\begin{bmatrix}1&1&1&1\\-1&1&1&-1\\-1/(l_x+l_y)&1/(l_x+l_y)&-1/(l_x+l_y)&1/(l_x+l_y)\\\end{bmatrix}\begin{bmatrix}\omega_1\\\omega_2\\\omega_3\\\omega_4\\\end{bmatrix}\">
+<img src="http://latex.codecogs.com/svg.latex?\begin{bmatrix}v_x\\v_y\\\omega\end{bmatrix}\=r/4\begin{bmatrix}1&1&1&1\\-1&1&1&-1\\-1/(l_x+l_y)&1/(l_x+l_y)&-1/(l_x+l_y)&1/(l_x+l_y)\end{bmatrix}\begin{bmatrix}\omega_1\\\omega_2\\\omega_3\\\omega_4\end{bmatrix}">
