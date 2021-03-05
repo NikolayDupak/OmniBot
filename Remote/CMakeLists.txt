@@ -16,9 +16,9 @@ project(${PROJECT_NAME})
 
 ### Main sketch file
 set(${PROJECT_NAME}_SKETCH remote.ino)
-set(${PROJECT_NAME}_SRCS OmniBot.cpp OmniBot.h
-        Motor.cpp Motor.h
-        UartCommunication.cpp UartCommunication.h
+set(${PROJECT_NAME}_SRCS lib/OmniBot.cpp lib/OmniBot.h
+        lib/Motor.cpp lib/Motor.h
+        lib/UartCommunication.cpp lib/UartCommunication.h
         )
 
 ### Add project directories into the build

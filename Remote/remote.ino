@@ -1,8 +1,8 @@
 #include <Arduino.h>
-#include "OmniBot.h"
-#include "Motor.h"
+#include "lib/OmniBot.h"
+#include "lib/Motor.h"
 // #include "math.h"
-#include "UartCommunication.h"
+#include "lib/UartCommunication.h"
 
 #define PIN_MOT1 2
 #define PIN_MOT1_PWM 3
