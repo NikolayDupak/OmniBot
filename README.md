@@ -8,6 +8,6 @@ The configuration parameters of the system are defined as follows:
 - \omega_i - wheels angular velocity
 - vx, vy, \omega - robot linear and angular velocities
 - <img src="http://latex.codecogs.com/svg.latex?l=sqrt(l_x^2+l_y^2)">
-- <img src="http://latex.codecogs.com/svg.latex?\alpha_(1,2)=+-atan(l_x/l_y); \alpha_(3,4)=+-\pi-+atan(l_x/l_y)">
+- <img src="http://latex.codecogs.com/svg.latex?\alpha_12=+-atan(l_x/l_y); \alpha_34=+-\pi-+atan(l_x/l_y)">
 
 Inverse kinematics
