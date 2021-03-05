@@ -1,12 +1,8 @@
-import serial
-import time
-import UartComm
-import pygame
-import OmniBot
-import Servo
+from lib import Servo, OmniBot, UartComm
 
 
 def main():
+    # example to use robot and servos
     comm = UartComm.UartComm("COM1", 9600)
     robot = OmniBot.OmniBot(comm)
 

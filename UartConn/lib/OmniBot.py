@@ -1,8 +1,7 @@
-import UartComm
-import Servo
+from lib import UartComm, Servo
 
 
-class OmniBot():
+class OmniBot:
 
     def __init__(self, connection: UartComm.UartComm):
         self.servo = {}

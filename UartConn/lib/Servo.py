@@ -29,7 +29,6 @@ class Servo:
         self._position = min(new_pos, self._max_pos)
         self._position = max(self._position, self._min_pos)
 
-
     @property
     def min_pos(self):
         return self._min_pos

@@ -1,26 +1,6 @@
-import serial
 import time
-import UartComm
+from lib import UartComm
 import pygame
-
-
-def test():
-    s = serial.Serial(port="COM4", baudrate=9600)
-    while True:
-
-        size = s.in_waiting
-        # print(size)
-        if size >= 1:
-            data = s.read(size)
-            l = list(data)
-            print(l)
-
-        m = [255, 255, 99, 34, 10, 50, 0, 238, 238]
-        print(m)
-        s.write(bytes(m))
-        s.flush()
-
-        time.sleep(1)
 
 
 def main():
@@ -43,12 +23,8 @@ def main():
             if event.type == pygame.KEYDOWN:
                 print(pygame.key.name(event.key))
 
-            # else:
-            #    comm.send_package([55, 128, 128, 128])
-            #    time.sleep(0.1)
         keys = pygame.key.get_pressed()
         # up = keys[pygame.K_UP]
-
         # down = keys[pygame.K_DOWN]
         # left = keys[pygame.K_LEFT]
         # right = keys[pygame.K_RIGHT]
@@ -69,29 +45,9 @@ def main():
         comm.send_package([55, vx + 128, vy + 128, vw + 128])
         time.sleep(0.1)
 
-        # rect.y += ( - ) * vel
-
     pygame.quit()
     exit()
 
-    while True:
-
-        data = comm.read_package()
-        print(data)
-        if len(data) > 0:
-            print(data)
-
-        comm.send_package([56, 0, 0, 0])
-        time.sleep(1)
-
 
 if __name__ == '__main__':
-    # test()
     main()
-    # comm = UartComm.UartComm("COM4", 9600)
-    # vx = 100
-    # vy = 0
-    # vw = 0
-    # comm.send_package([55, vx + 128, vy + 128, vw + 128])
-    # time.sleep(3)
-    # scomm.send_package([55, 128, 128, 128])
