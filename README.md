@@ -4,7 +4,7 @@ robot photo
 <img src="photos/kinematics.jpeg" width="350">
 
 ### The configuration parameters of the system are defined as follows:
-- <img src="http://latex.codecogs.com/svg.latex?x,y,\phi\"> - robot position coordinates and orientation angle
+- <img src="https://render.githubusercontent.com/render/math?math=x,y,\phi"> - robot position coordinates and orientation angle
 - <img src="http://latex.codecogs.com/svg.latex?l_x,l_y"> - half of the distance between wheels
 - <img src="http://latex.codecogs.com/svg.latex?r"> - radius of the wheels
 - <img src="http://latex.codecogs.com/svg.latex?\omega_i"> - wheels angular velocity
