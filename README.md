@@ -1,7 +1,7 @@
 # Robot based on mecanum wheels
 robot photo
 ## Kinematics
-- <img src="photos/kinematics.jpeg" width="200">
+- <img src="photos/kinematics.jpeg" width="350">
 
 ### The configuration parameters of the system are defined as follows:
 - x, y, \phi - robot position coordinates and orientation angle
