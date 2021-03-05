@@ -12,7 +12,7 @@ OmniBot::OmniBot(Motor leftFront, Motor leftRear,
                  leftFront(leftFront), leftRear(leftRear),
                  rightFront(rightFront), rightRear(rightRear)
 {
-
+    id = 0;
 }
 
 void OmniBot::drive(int leftFront, int leftRear, int rightFront, int rightRear)
@@ -74,4 +74,21 @@ void OmniBot::stop()
 {
     this->drive(0,0,0,0);
 
+}
+
+void OmniBot::addServo(uint8_t pin, uint8_t minPos=0, uint8_t maxPos=180)
+{
+    this->servo[id].attach(pin, minPos, maxPos);
+    id++;
+
+}
+
+void OmniBot::writeServo(uint8_t id, uint8_t pos, uint8_t v)
+{
+    this->servo[id].write(pos);
+}
+
+void OmniBot::writeMotor(uint8_t vx, uint8_t vy, uint8_t w)
+{
+    this->move(vx - 128, vy - 128, w - 128);
 }

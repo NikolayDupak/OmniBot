@@ -5,15 +5,17 @@
 #include "UartCommunication.h"
 #include "Arduino.h"
 
+
 UartCommunication::UartCommunication()
 {
-
+    this->nextId = 0;
 }
 
 void UartCommunication::begin(int bitRate)
 {
     this->bitRate = bitRate;
     Serial.begin(bitRate);
+    this->nextId = 0;
 
 }
 
@@ -56,14 +58,34 @@ bool UartCommunication::recivePackege()
 
 void UartCommunication::loop()
 {
-    return;
+    bool status = this->recivePackege();
+
+    if (status)
+    {
+        this->callback(recivedPackege[0], recivedPackege[1], recivedPackege[2], recivedPackege[3]);
+        delay(10);
+        error = 0;
+    } else
+    {
+        error += 1;
+        delay(10);
+    }
+    if (error >= 100)
+    {
+        callbackFail();
+        error = 0;
+
+    }
 }
 
-void UartCommunication::subscribe(uint8_t type, void (*comparisonFcn)(uint8_t, uint8_t, uint8_t))
+void UartCommunication::subscribe(uint8_t type, void (*subscriber)(uint8_t, uint8_t, uint8_t))
 {
-    //comparisonFcn(12,33, 12);
-    return;
+    this->subId[nextId] = type;
+    this->subs[nextId] = subscriber;
+    nextId++;
+    //subscriber(12,33, 12);
 }
+
 
 void UartCommunication::send()
 {
@@ -85,4 +107,30 @@ void UartCommunication::send()
 uint8_t UartCommunication::read()
 {
     return this->recivedPackege[0];
+}
+
+void UartCommunication::callback(uint8_t type, uint8_t val1, uint8_t val2, uint8_t val3)
+{
+    for (uint8_t i = 0; i < nextId; i++)
+    {
+        if (this->subId[i] == type)
+        {
+            this->subs[i](val1, val2, val3);
+        }
+    }
+
+}
+
+void UartCommunication::callbackFail()
+{
+    for (uint8_t i = 0; i < subNextId; i++)
+    {
+        this->subFail[i]();
+    }
+}
+
+void UartCommunication::subConFail(void (*subscriber)())
+{
+    this->subFail[nextId] = subscriber;
+    subNextId++;
 }

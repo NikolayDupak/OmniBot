@@ -23,57 +23,54 @@ void setup()
 }
 
 
+Motor m1(PIN_MOT3, PIN_MOT3_PWM, true); //left front
+Motor m2(PIN_MOT4, PIN_MOT4_PWM); //right front
 
-Motor m1(PIN_MOT3,PIN_MOT3_PWM, true); //left front
-Motor m2(PIN_MOT4,PIN_MOT4_PWM); //right front
-
-Motor m3(PIN_MOT1,PIN_MOT1_PWM); //left rear
-Motor m4(PIN_MOT2,PIN_MOT2_PWM, true); //right rear
+Motor m3(PIN_MOT1, PIN_MOT1_PWM); //left rear
+Motor m4(PIN_MOT2, PIN_MOT2_PWM, true); //right rear
 
 OmniBot robot(m1, m3, m2, m4);
 
+void servo(uint8_t v1, uint8_t v2, uint8_t v3);
 
+/**
+ * add servo type = 20, pin, min, max
+ * remote servo type = 22, id, pos, v(not use)
+ * remote motor type = 55, vx, vy, w
+ */
 
-//
-int error = 0;
+void r_stop()
+{
+    robot.stop();
+}
+
+void addServo(uint8_t pin, uint8_t minPos, uint8_t maxPos)
+{
+    robot.addServo(pin, minPos, maxPos);
+}
+
+void writeServo(uint8_t id, uint8_t pos, uint8_t v)
+{
+    robot.writeServo(id, pos, v);
+}
+
+void writeMotor(uint8_t vx, uint8_t vy, uint8_t w)
+{
+    robot.writeMotor(vx, vy, w);
+}
+
 void loop()
 {
-    //comm.sendPackege(10, 100, 100, 100);
-    //robot.stop();
-    //delay(500);
 
-    bool status = comm.recivePackege();
+    comm.subscribe(20, addServo);
+    comm.subscribe(22, writeServo);
+    comm.subscribe(55, writeMotor);
+    comm.subConFail(r_stop);
 
-    if (status)
+    while (true)
     {
-
-        uint8_t type = comm.recivedPackege[0];
-        uint8_t vx = comm.recivedPackege[1];
-        uint8_t vy = comm.recivedPackege[2];
-        uint8_t vw = comm.recivedPackege[3];
-        if (type == 55)
-            robot.move(vx - 128,vy - 128,vw - 128);
-        if (type == 56)
-            digitalWrite(13, vx);
-        // uint8_t val4 = comm.recivedPackege[1];
-        //comm.sendPackege(type, val1, val2, val3);
-        //comm.sendPackege(10, 10, 10, 10);
-        //Serial.println(type);
-        //Serial.println(val1);
-        //Serial.println(val2);
-        //Serial.println(val3);
-
-        delay(10);
-        error = 0;
-    } else
-    {
-        error += 1;
-        delay(50);
+        comm.loop();
     }
-    if (error >= 20)
-        robot.stop();
-
-    //delay(300);
 
 
 }
