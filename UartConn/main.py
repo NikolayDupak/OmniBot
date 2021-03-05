@@ -2,99 +2,27 @@ import serial
 import time
 import UartComm
 import pygame
-
-
-def test():
-    s = serial.Serial(port="COM4", baudrate=9600)
-    while True:
-
-        size = s.in_waiting
-        # print(size)
-        if size >= 1:
-            data = s.read(size)
-            l = list(data)
-            print(l)
-
-        m = [255, 255, 99, 34, 10, 50, 0, 238, 238]
-        print(m)
-        s.write(bytes(m))
-        s.flush()
-
-        time.sleep(1)
+import OmniBot
+import Servo
 
 
 def main():
-    pygame.init()
-    window = pygame.display.set_mode((300, 300))
-    comm = UartComm.UartComm("COM4", 9600)
-    comm.send_package([55, 128, 128, 128])
-    clock = pygame.time.Clock()
+    comm = UartComm.UartComm("COM1", 9600)
+    robot = OmniBot.OmniBot(comm)
 
-    # rect = pygame.Rect(0, 0, 20, 20)
-    # rect.center = window.get_rect().center
-    # vel = 5
+    servo = Servo.Servo("first", 12)
+    servo2 = Servo.Servo("second", 12)
+    # servo.min_pos = 10
+    # servo.max_pos = 100
 
-    run = True
-    while run:
-        # clock.tick(60)
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                run = False
-            if event.type == pygame.KEYDOWN:
-                print(pygame.key.name(event.key))
+    robot.add_servo(servo)
+    robot.add_servo(servo2)
 
+    robot.servo["first"].set_pos(100)
+    robot.servo["second"].set_pos(20)
 
-            #else:
-            #    comm.send_package([55, 128, 128, 128])
-            #    time.sleep(0.1)
-        keys = pygame.key.get_pressed()
-        # up = keys[pygame.K_UP]
+    robot.move(10, 20, 30)
 
-        # down = keys[pygame.K_DOWN]
-        # left = keys[pygame.K_LEFT]
-        # right = keys[pygame.K_RIGHT]
-
-        up = keys[pygame.K_w]
-        down = keys[pygame.K_s]
-        left = keys[pygame.K_a]
-        right = keys[pygame.K_d]
-
-        r = keys[pygame.K_k]
-        l = keys[pygame.K_l]
-        vx = 100 * up + (-100) * down
-        vy = 100 * left + (-100) * right
-        vw = 100 * l + (-100) * r
-
-        print(vx, vy)
-        comm.send_package([55, vx + 128, vy + 128, vw+128])
-        time.sleep(0.1)
-
-        # rect.y += ( - ) * vel
-
-
-    pygame.quit()
-    exit()
-
-
-
-
-    while True:
-
-        data = comm.read_package()
-        print(data)
-        if len(data) > 0:
-            print(data)
-
-        comm.send_package([56, 0, 0, 0])
-        time.sleep(1)
 
 if __name__ == '__main__':
-    # test()
     main()
-    comm = UartComm.UartComm("COM4", 9600)
-    vx = 100
-    vy = 0
-    vw = 0
-    comm.send_package([55, vx + 128, vy + 128, vw + 128])
-    #time.sleep(3)
-    #scomm.send_package([55, 128, 128, 128])

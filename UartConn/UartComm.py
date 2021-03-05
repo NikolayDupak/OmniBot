@@ -1,13 +1,13 @@
 
-class UartComm():
+class UartComm:
     import serial
 
     def __init__(self, port, baudrate=9600):
         self.receive_package = list()
-        self.ser = self.serial.Serial(port=port, baudrate=baudrate)
+        self._serial = self.serial.Serial(port=port, baudrate=baudrate)
 
     def send_package(self, package: list):
-        if self.ser.is_open:
+        if self._serial.is_open:
             data = [255,255]
             data.append(package[0])
             data.append(package[1])
@@ -18,21 +18,16 @@ class UartComm():
             data.append(s)
             data.append(238)
             data.append(238)
-            print(data)
-            # self.__send_byte(bytes(s))
-            # self.ser.flush()
-            m = [255, 255, 99, 34, 10, 50, 0, 238, 238]
-            # print(m)
-            self.ser.write(bytes(data))
+            self._serial.write(bytes(data))
 
     def __send_byte(self, b:bytes):
-        self.ser.write(b)
+        self._serial.write(b)
 
     def __read_byte(self, size):
-        return self.ser.read(size)
+        return self._serial.read(size)
 
     def read_package(self):
-        if self.ser.in_waiting >= 9:
+        if self._serial.in_waiting >= 9:
             data = list(self.__read_byte(9))
             if data[0] == 255 and data[1] == 255 and data[7] == 238 and data[8] == 238:
                 return data[2:6]
