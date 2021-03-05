@@ -9,7 +9,7 @@ robot photo
 - <img src="http://latex.codecogs.com/svg.latex?r"> - radius of the wheels
 - <img src="http://latex.codecogs.com/svg.latex?\omega_i"> - wheels angular velocity
 - <img src="http://latex.codecogs.com/svg.latex?v_x,v_y,\phi"> - robot linear and angular velocities
-- <img src="http://latex.codecogs.com/svg.latex?l=sqrt(l_x^2+l_y^2)">
+- <img src="http://latex.codecogs.com/svg.latex?l=sqrt(l_x^2 +l_y^2)">
 - <img src="http://latex.codecogs.com/svg.latex?\alpha_1=\pm\;atan(l_x/l_y);\alpha_3=\pm\pi\mp\;atan(l_x/l_y)">
 
 ### Inverse kinematics
