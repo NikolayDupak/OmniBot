@@ -39,6 +39,7 @@ class OmniBot:
         self.servo.update({servo.name: servo})
         self._servo_id.update({servo.name: len(self._servo_id)})
         self.connection.send_package([20, servo.pin, servo.min_pos, servo.max_pos])
+        servo.set_pos(servo.def_pos)
 
     def _servo_send(self, name: str, value: bytes):
         self.connection.send_package([22, self._servo_id[name], value, 0])

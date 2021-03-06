@@ -21,6 +21,10 @@ class Servo:
         self._send_pos(self._position)
 
     @property
+    def def_pos(self):
+        return self._default_position
+
+    @property
     def pin(self):
         return self._pin
 
