@@ -16,7 +16,7 @@ def main():
     robot.servo["first"].set_pos(170)
     # robot.servo["second"].set_pos(20)
 
-    # robot.move(10, 20, 30)
+    robot.move(100, 20, 30)
 
 
 if __name__ == '__main__':

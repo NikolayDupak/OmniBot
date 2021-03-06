@@ -75,7 +75,7 @@ void loop()
     comm.subscribe(20, addServo);
     comm.subscribe(22, writeServo);
     comm.subscribe(55, writeMotor);
-    //comm.subConFail(r_stop);
+    comm.subConFail(r_stop);
     bool stop = false;
     while (true)
     {
