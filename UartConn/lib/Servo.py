@@ -14,11 +14,15 @@ class Servo:
 
     def _send_pos(self, position):
         if self._write is not None:
-            self._write(self._pin, position)
+            self._write(self.name, position)
 
     def set_pos(self, pos):
         self.position = pos
         self._send_pos(self._position)
+
+    @property
+    def pin(self):
+        return self._pin
 
     @property
     def position(self):
@@ -35,7 +39,7 @@ class Servo:
 
     @min_pos.setter
     def min_pos(self, position):
-        if 0 < position < 180 and position < self._max_pos:
+        if 0 < position < 255 and position < self._max_pos:
             self._min_pos = position
 
     @property
@@ -44,5 +48,5 @@ class Servo:
 
     @max_pos.setter
     def max_pos(self, position):
-        if 0 < position < 180 and position > self._min_pos:
+        if 0 < position < 255 and position > self._min_pos:
             self._max_pos = position

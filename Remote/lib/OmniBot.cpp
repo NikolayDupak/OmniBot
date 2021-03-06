@@ -78,7 +78,8 @@ void OmniBot::stop()
 
 void OmniBot::addServo(uint8_t pin, uint8_t minPos=0, uint8_t maxPos=180)
 {
-    this->servo[id].attach(pin, minPos, maxPos);
+    this->servo[id].attach(pin);
+    this->servo[id].write(90);
     id++;
 
 }

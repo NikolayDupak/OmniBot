@@ -13,7 +13,9 @@ class UartComm:
             data.append(s)
             data.append(238)
             data.append(238)
+            # print(data)
             self._serial.write(bytes(data))
+            self._serial.flush()
 
     def __send_byte(self, b: bytes):
         self._serial.write(b)

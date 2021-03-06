@@ -16,7 +16,7 @@ public:
     void sendPackege(uint8_t type, uint8_t val1, uint8_t val2, uint8_t val3);
     bool recivePackege();
 
-    void loop();
+    bool loop();
     uint8_t read();
     void subscribe(uint8_t type, void (*subscriber)(uint8_t, uint8_t, uint8_t));
     void subConFail(void (*subscriber)());

@@ -9,6 +9,7 @@
 UartCommunication::UartCommunication()
 {
     this->nextId = 0;
+    this->subNextId = 0;
 }
 
 void UartCommunication::begin(int bitRate)
@@ -16,6 +17,7 @@ void UartCommunication::begin(int bitRate)
     this->bitRate = bitRate;
     Serial.begin(bitRate);
     this->nextId = 0;
+    this->subNextId = 0;
 
 }
 
@@ -34,16 +36,16 @@ void UartCommunication::sendPackege(uint8_t type, uint8_t val1, uint8_t val2, ui
 bool UartCommunication::recivePackege()
 {
     uint8_t first[2];
-    while (Serial.available() >= 2)
+    while (Serial.available() >= 9)
     {
         Serial.readBytes(first, 2);
         //Serial.print(first[0]);
         //Serial.print(first[1]);
         //Serial.write(first, 2);
-        delay(10);
-        if (first[0] == 0xFF && first[1] == 0xFF && Serial.available() < 7)
+        //delay(30);
+        if (Serial.available() < 7)
         {
-            delay(50);
+            //delay(20);
         }
         if (first[0] == 0xFF && first[1] == 0xFF && Serial.available() >= 7)
         {
@@ -56,14 +58,16 @@ bool UartCommunication::recivePackege()
     return false;
 }
 
-void UartCommunication::loop()
+bool UartCommunication::loop()
 {
     bool status = this->recivePackege();
 
     if (status)
     {
         this->callback(recivedPackege[0], recivedPackege[1], recivedPackege[2], recivedPackege[3]);
-        delay(10);
+        //Serial.print(recivedPackege[0]);
+
+        //delay(10);
         error = 0;
     } else
     {
@@ -76,6 +80,7 @@ void UartCommunication::loop()
         error = 0;
 
     }
+    return false;
 }
 
 void UartCommunication::subscribe(uint8_t type, void (*subscriber)(uint8_t, uint8_t, uint8_t))
@@ -131,6 +136,6 @@ void UartCommunication::callbackFail()
 
 void UartCommunication::subConFail(void (*subscriber)())
 {
-    this->subFail[nextId] = subscriber;
+    this->subFail[subNextId] = subscriber;
     subNextId++;
 }

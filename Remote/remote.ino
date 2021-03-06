@@ -18,7 +18,7 @@ UartCommunication comm;
 void setup()
 {
     //Serial.begin(9600);
-    comm.begin(9600);
+    comm.begin(19200);
     pinMode(13, OUTPUT);
 }
 
@@ -47,11 +47,13 @@ void r_stop()
 void addServo(uint8_t pin, uint8_t minPos, uint8_t maxPos)
 {
     robot.addServo(pin, minPos, maxPos);
+    Serial.println("servo add");
 }
 
 void writeServo(uint8_t id, uint8_t pos, uint8_t v)
 {
     robot.writeServo(id, pos, v);
+    //Serial.println("servo write");
 }
 
 void writeMotor(uint8_t vx, uint8_t vy, uint8_t w)
@@ -61,15 +63,25 @@ void writeMotor(uint8_t vx, uint8_t vy, uint8_t w)
 
 void loop()
 {
-
+    /*addServo(11,0,180);
+    writeServo(0, 0, 0);
+    delay(2000);
+    for (uint8_t i = 0; i<=180; i++)
+    {
+        writeServo(0, i, 0);
+        delay(20);
+    }*/
+    //writeServo(0,10,0);
     comm.subscribe(20, addServo);
     comm.subscribe(22, writeServo);
     comm.subscribe(55, writeMotor);
-    comm.subConFail(r_stop);
-
+    //comm.subConFail(r_stop);
+    bool stop = false;
     while (true)
     {
-        comm.loop();
+        stop = comm.loop();
+        if (stop)
+            break;
     }
 
 
